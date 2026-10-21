@@ -1,0 +1,12 @@
+{
+  "name": "playwright-stdout-attachment-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal reproduction: HTML reporter crashes when a test attaches a file named stdout or stderr",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}
